@@ -1,0 +1,156 @@
+[11-Jan-2017 15:05:11 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 15:05:11 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:36:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:36:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:56:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:56:36 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:58:08 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:58:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:58:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 19:58:14 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 20:27:08 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 20:27:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 20:28:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 20:28:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 23:41:06 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 23:41:06 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 23:41:12 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[11-Jan-2017 23:41:12 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:57:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:57:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:57:37 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:57:37 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:57:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:57:59 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:58:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 11:58:22 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 13:00:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 13:00:56 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 13:01:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 13:01:18 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 13:28:24 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 13:28:24 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 14:41:12 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 14:41:12 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 15:49:53 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 15:49:53 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 16:54:18 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 16:54:18 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 19:17:10 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 19:17:10 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 19:20:25 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 19:20:25 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 19:20:29 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 19:20:29 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:01:36 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:01:36 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:01:42 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:01:42 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:01:44 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:01:44 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:10:15 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:10:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:10:26 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:10:26 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:11:05 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:11:05 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:13:04 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:13:04 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:13:48 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:13:48 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:43:59 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 20:43:59 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 21:12:34 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 21:12:34 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 21:38:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 21:38:00 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:39:09 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:39:09 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:46:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:46:31 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:46:54 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:46:54 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:52:47 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 22:52:47 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 23:31:28 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[12-Jan-2017 23:31:28 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 01:36:08 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 01:36:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 02:03:07 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 02:03:07 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:34:31 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:34:31 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:34:56 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:34:56 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:35:00 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:35:00 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:36:50 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:36:50 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:37:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:37:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:58:15 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 03:58:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:19:01 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:19:01 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:55:16 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:55:16 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:55:30 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:55:30 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:55:54 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 04:55:54 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 05:06:58 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 05:06:58 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 05:07:34 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 05:07:34 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 05:54:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 05:54:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 06:17:22 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 06:17:22 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 06:17:29 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 06:17:29 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 06:36:15 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 06:36:15 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 07:45:21 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 07:45:21 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 07:47:14 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 07:47:43 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 07:48:40 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 07:48:49 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/hg90r614/public_html/ucp/func/database.php on line 2
+[13-Jan-2017 11:44:07 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 142
+[13-Jan-2017 11:44:10 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 142
+[13-Jan-2017 11:44:23 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 137
+[13-Jan-2017 11:46:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/hg90r614/public_html/ucp/verapp.php on line 135
+[13-Jan-2017 11:46:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'case' (T_CASE) in /home/hg90r614/public_html/ucp/verapp.php on line 135
+[13-Jan-2017 11:46:55 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/hg90r614/public_html/ucp/verapp.php on line 135
+[13-Jan-2017 14:41:09 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/hg90r614/public_html/ucp/verapp.php on line 375
+[13-Jan-2017 14:50:53 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/hg90r614/public_html/ucp/verapp.php on line 118
+[13-Jan-2017 15:18:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 369
+[13-Jan-2017 15:19:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'case' (T_CASE), expecting ',' or ';' in /home/hg90r614/public_html/ucp/verapp.php on line 225
+[16-Jan-2017 12:31:31 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 405
+[16-Jan-2017 12:31:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 405
+[16-Jan-2017 12:31:35 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 405
+[16-Jan-2017 12:31:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 405
+[16-Jan-2017 12:31:53 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 405
+[16-Jan-2017 12:31:56 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 405
+[16-Jan-2017 12:32:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/hg90r614/public_html/ucp/verapp.php on line 208
+[16-Jan-2017 12:33:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/hg90r614/public_html/ucp/verapp.php on line 229
+[16-Jan-2017 12:33:25 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/verapp.php on line 425
+[16-Jan-2017 15:18:27 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/hg90r614/public_html/ucp/recusados.php on line 211
+[16-Jan-2017 15:23:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/hg90r614/public_html/ucp/recusados.php on line 222
+[16-Jan-2017 15:23:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/hg90r614/public_html/ucp/recusados.php on line 223
+[16-Jan-2017 15:23:58 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/hg90r614/public_html/ucp/recusados.php on line 223
+[16-Jan-2017 15:24:01 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/hg90r614/public_html/ucp/recusados.php on line 223
+[16-Jan-2017 17:04:09 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/recusados.php on line 144
+[16-Jan-2017 19:38:06 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/hg90r614/public_html/ucp/account.php on line 103
+[18-Jan-2017 10:14:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$iddaapp' (T_VARIABLE), expecting ',' or ';' in /home/hg90r614/public_html/ucp/verapp.php on line 274
+[18-Jan-2017 10:14:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$iddaapp' (T_VARIABLE), expecting ',' or ';' in /home/hg90r614/public_html/ucp/verapp.php on line 274
+[18-Jan-2017 10:14:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$iddaapp' (T_VARIABLE), expecting ',' or ';' in /home/hg90r614/public_html/ucp/verapp.php on line 274
+[18-Jan-2017 12:27:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/hg90r614/public_html/ucp/app_emprego.php on line 460
+[18-Jan-2017 12:50:22 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/app_emprego.php on line 117
+[18-Jan-2017 12:50:49 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/app_emprego.php on line 117
+[18-Jan-2017 12:51:19 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/hg90r614/public_html/ucp/app_emprego.php on line 130
+[19-Jan-2017 06:54:37 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/hg90r614/public_html/ucp/apps.php on line 156
+[19-Jan-2017 10:34:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/hg90r614/public_html/ucp/skin.php on line 124
+[19-Jan-2017 11:09:47 America/Chicago] PHP Parse error:  syntax error, unexpected '".' WHERE ID= '"' (T_CONSTANT_ENCAPSED_STRING) in /home/hg90r614/public_html/ucp/skin.php on line 130
+[19-Jan-2017 11:10:30 America/Chicago] PHP Parse error:  syntax error, unexpected '".' WHERE ID= '"' (T_CONSTANT_ENCAPSED_STRING) in /home/hg90r614/public_html/ucp/skin.php on line 130
+[19-Jan-2017 11:10:31 America/Chicago] PHP Parse error:  syntax error, unexpected '".' WHERE ID= '"' (T_CONSTANT_ENCAPSED_STRING) in /home/hg90r614/public_html/ucp/skin.php on line 130
