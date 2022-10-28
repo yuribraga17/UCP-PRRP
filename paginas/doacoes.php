@@ -126,7 +126,36 @@
 	</div>
  </div>
  <!-- Fim Pacote 1 - Troca De Nome -->
+ <div class="wrapper wrapper-content animated fadeIn">
+		<div class="p-w-md m-t-sm">
+			<div class="row">
+				<div class="col-lg-13">
+					<div class="ibox float-e-margins bounceInUp animated">
+					<div class="ibox-content">
+		
+					<h2 class="font-bold m-b-xs text-center">
+					Slot Personalizado <span class="text-success">x1</span>	
 
+					<hr></hr>
+					<h2>Descrição do produto</h2>
+					<div class="small text-muted">
+					Troca de nome
+						</div>
+					Com ela você poderá ter uma skin exclusiva no servidor, você pode nos enviar a skin e será privada somente a você
+
+					<hr>
+					<center><dd class="from-group"><img oncontextmenu="return false" <img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;1x slot personalizado</dd><br/></center>
+
+					<p><center>
+						<div class="alert alert-success" role="alert">
+							<h2 class="product-main-price text-primary"><b><a href="">R$9,99 e 2 por 24,99</a></b>
+							</div></h2></center></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+ </div>
 <!-- Pacote 2 - Pacote Bronze -->
  	<div class="wrapper wrapper-content animated fadeIn">
 		<div class="p-w-md m-t-sm">
@@ -153,7 +182,7 @@
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>3</b> Namechanges.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>10</b> Veículos na garagem.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>150</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>300</b> Segundos no hospital. (padrão é 600).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 180).</dd><br/>	
 													</div>
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
@@ -204,7 +233,7 @@
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>6</b> Namechanges.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>12</b> Veículos na garagem.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>250</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>300</b> Segundos no hospital. (padrão é 600).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 180).</dd><br/>	
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													</div>
 													<div class="col-lg-6">
@@ -258,7 +287,7 @@
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>10</b> Namechanges.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>12</b> Veículos na garagem.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>250</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>300</b> Segundos no hospital. (padrão é 600).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 180).</dd><br/>	
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													</div>
 													<div class="col-lg-6">
@@ -274,7 +303,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$24,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$19,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
