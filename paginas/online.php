@@ -11,7 +11,7 @@ if (!$conn) {
 }
 
 $sql = 'SELECT * 
-		FROM refundograna';
+		FROM server';
 		
 $query = mysqli_query($conn, $sql);
 
@@ -21,14 +21,14 @@ if (!$query) {
 ?>
 	<div class="row wrapper border-bottom white-bg page-heading">
 		<div class="col-lg-10">
-       		<h2>Refundos Administrativos</h2>
+       		<h2>Jogadores Online</h2>
             <ol class="breadcrumb">
                 <li>
                 	<a href="inicio">Home</a>
                 </li><li>
                     Administração
                 </li><li class="active">
-                    <strong>Refundos de dinheiro</strong>
+                    <strong>Jogadores Online</strong>
                 </li>
             </ol>
          </div>
@@ -123,10 +123,9 @@ if (!$query) {
 	    <hr>
 		<thead>
 			<tr>
-				<th>Personagem</th>
-				<th>Key</th>
-				<th>Dinheiro</th>
-				<th>Criado por</th>
+				<th>Total Online</th>
+				<th>Recorde do Dia</th>
+				<th>Nova facção (ID)</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -137,10 +136,9 @@ if (!$query) {
 		{
 			$amount  = $row['amount'] == 0 ? '' : number_format($row['amount']);
 			echo '<tr>
-					<td>'.$row['jogador'].'</td>
-					<td>'.$row['chave'].'</td>
-					<td>'.$row['arma'].'</td>
-					<td>'.$row['admin'].'</td>
+					<td>'.$row['totalonline'].'</td>
+					<td>'.$row['recorddia'].'</td>
+					<td>'.$row['fac_newid'].'</td>
 				</tr>';
 			$total += $row['amount'];
 			$no++;

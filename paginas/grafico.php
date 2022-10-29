@@ -4,14 +4,13 @@ $db_user = 'yurib_6948'; // Username
 $db_pass = 'wGfWG501d2'; // Password
 $db_name = 'yurib_6948'; // Database Name
 
-
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 if (!$conn) {
 	die ('Failed to connect to MySQL: ' . mysqli_connect_error());	
 }
 
 $sql = 'SELECT * 
-		FROM refundograna';
+		FROM grafico';
 		
 $query = mysqli_query($conn, $sql);
 
@@ -21,14 +20,14 @@ if (!$query) {
 ?>
 	<div class="row wrapper border-bottom white-bg page-heading">
 		<div class="col-lg-10">
-       		<h2>Refundos Administrativos</h2>
+       		<h2>Grafico</h2>
             <ol class="breadcrumb">
                 <li>
                 	<a href="inicio">Home</a>
                 </li><li>
                     Administração
                 </li><li class="active">
-                    <strong>Refundos de dinheiro</strong>
+                    <strong>Grafico de GMX</strong>
                 </li>
             </ol>
          </div>
@@ -123,10 +122,9 @@ if (!$query) {
 	    <hr>
 		<thead>
 			<tr>
-				<th>Personagem</th>
-				<th>Key</th>
-				<th>Dinheiro</th>
-				<th>Criado por</th>
+				<th>ID</th>
+				<th>Data</th>
+				<th>Players online no GMX</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -137,10 +135,9 @@ if (!$query) {
 		{
 			$amount  = $row['amount'] == 0 ? '' : number_format($row['amount']);
 			echo '<tr>
-					<td>'.$row['jogador'].'</td>
-					<td>'.$row['chave'].'</td>
-					<td>'.$row['arma'].'</td>
-					<td>'.$row['admin'].'</td>
+					<td>'.$row['id'].'</td>
+					<td>'.$row['nome'].'</td>
+					<td>'.$row['quantidade'].'</td>
 				</tr>';
 			$total += $row['amount'];
 			$no++;

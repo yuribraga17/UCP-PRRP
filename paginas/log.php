@@ -37,7 +37,7 @@ if (!$query) {
     </div>
 <html>
 <head>
-	<title>FORWARD-ROLEPLAY</title>
+	<title>Progressive Roleplay</title>
 	<style type="text/css">
 		table {
 			margin: auto;
