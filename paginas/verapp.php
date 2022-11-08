@@ -151,43 +151,6 @@ if (isset($_GET['id'])) {
                                 }
                             }
                         }
-                        /*else if($acao == 'reavaliar')
-                        {
-                                    $a_por = $_SESSION['usuarioID'];
-
-                                    $sqlaccept = "UPDATE ucp_aplic SET avaliado = '0', avaliadopor = '$a_por', motivo_recusado = '' WHERE OwnId = '$p_id'";
-                                    $result_accept = mysql_query($sqlaccept)or die (mysql_error());
-
-                                    $sqlaccept2 = "UPDATE characters SET status = '0' WHERE ID = '$p_id'";
-                                    $result_accept2 = mysql_query($sqlaccept2)or die (mysql_error());
-
-                                    //Enviar Notificação na UCP
-                                    $sqlaccept_loc = "SELECT * FROM characters WHERE ID = '$p_id'";
-                                    $result_accept_loc = mysql_query($sqlaccept_loc)or die (mysql_error());
-                                    $resh_loc=mysql_fetch_array($result_accept_loc);
-                                    $AccountName = $resh_loc['Username'];
-
-                                    $query_search_nt = "SELECT * FROM accounts WHERE Username='$AccountName' LIMIT 1";
-                                    $result_ser_nt = mysql_query($query_search_nt)or die (mysql_error());
-                                    $resh_nt=mysql_fetch_array($result_ser_nt);
-                                    $QuemRecebe = $resh_nt['ID'];
-
-                                    $notific_mensagem = "Um de seus personagens foi enviado para a reavaliação pelo administrador $a_por.";
-                                    $timestaaaamp = time();
-                                    $sql_notifc="INSERT INTO ucp_notific (OwnId,icon,text,timestamp,visto) VALUES('$QuemRecebe','user','$notific_mensagem','$timestaaaamp','0')";
-                                    mysql_query($sql_notifc)or die (mysql_error());
-                                    //============
-
-                                    if($result_accept && $result_accept2)
-                                    {
-                                        echo "Personagem enviado para reavaliação.";
-                                    }
-                                    else
-                                    {
-                                        echo "Ocorreu algum erro ao aceitar este personagem... Contate o Freeze.";
-                                    }
-
-                        }*/
                     }
                 } else {
                     $result_f = $mysqli->query("SELECT admin FROM ucp_users WHERE uID='".$_SESSION['usuarioID']."' LIMIT 1");
@@ -225,7 +188,7 @@ if (isset($_GET['id'])) {
                         if ($row_app['novopers'] && $row_a['admin'] >= 1) {
                             $OwnerID = $row_app['OwnId'];
 
-                            echo "<br><b><font color='#9D0022' size='-1'>NOVO PERSONAGEM. (<a href='http://ucp.ca-roleplay.com.br/verapp/$p_id'>Ver APP</a>)</font></b>";
+                            echo "<br><b><font color='#9D0022' size='-1'>NOVO PERSONAGEM. (<a href='https://progressive-roleplay.com/verapp/$p_id'>Ver APP</a>)</font></b>";
                         }
 
                         if ($row_app['avaliado'] == 2) {
