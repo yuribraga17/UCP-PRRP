@@ -148,7 +148,7 @@
 
 					<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$9,99 e 2 por 24,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">1x R$14,99 e 2x por 24,99</a></b>
 							</div></h2></center></p>
 					</div>
 				</div>
