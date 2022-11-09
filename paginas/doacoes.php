@@ -181,8 +181,8 @@
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>3</b> Namechanges.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>10</b> Veículos na garagem.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>150</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 180).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>200</b> Mobílias.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 600).</dd><br/>	
 													</div>
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
@@ -232,13 +232,13 @@
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>6</b> Namechanges.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>12</b> Veículos na garagem.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>250</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 180).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>300</b> Mobílias.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 600).</dd><br/>	
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													</div>
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;Rankbar premium padrão.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/desmanche.png"/>&nbsp;<b>30</b> segundos desmanchando carro.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/desmanche.png"/>&nbsp;<b>10</b> segundos desmanchando carro.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/quitjob.png"/>&nbsp;<b>1</b> hora para sair do emprego.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house2.png"/>&nbsp;<b>1</b> saida extra em cada propriedade.</dd><br/>
@@ -285,14 +285,14 @@
 													<div class="col-lg-12">
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>10</b> Namechanges.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>12</b> Veículos na garagem.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>250</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 180).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>15</b> Veículos na garagem.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>600</b> Mobílias.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 600).</dd><br/>	
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													</div>
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;Rankbar premium padrão.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/desmanche.png"/>&nbsp;<b>30</b> segundos desmanchando carro.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/desmanche.png"/>&nbsp;<b>10</b> segundos desmanchando carro.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/quitjob.png"/>&nbsp;<b>1</b> hora para sair do emprego.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house2.png"/>&nbsp;<b>2</b> saida extra em cada propriedade.</dd><br/>
