@@ -6,11 +6,11 @@ ini_set(“display_errors”, 1);
 
 $ambiente = 1; // 1 - Produção / 2 - Teste
 if($ambiente == 1){
-	$mysqli = new mysqli("198.50.187.244","yurib_6948","wGfWG501d2","yurib_6948");
+	$mysqli = new mysqli("localhost","u750716595_ucp","3pHi9?8v|2!","u750716595_ucp");
 	$url_base = "https://progressive-roleplay.com";
 }
 else {
-	$mysqli = new mysqli("198.50.187.244","yurib_6948","wGfWG501d2","yurib_6948");
+	$mysqli = new mysqli("localhost","u750716595_ucp","3pHi9?8v|2!","u750716595_ucp");
 	$url_base = "https://progressive-roleplay.com";
 }
 
