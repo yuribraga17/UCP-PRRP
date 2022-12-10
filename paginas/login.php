@@ -123,7 +123,7 @@ if(isset($_SESSION['usuarioID'])){
 								</div>
 								
 								<div class="panel-footer">
-									<a href="https://forum.progressive-roleplay.com">Esqueci minha senha</a>
+									<a href="https://forum.progressive-roleplay.com/viewtopic.php?p=991#p991">Esqueci minha senha</a>
 								</div>
 							</div>
 						</div>
