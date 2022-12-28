@@ -56,7 +56,7 @@
                                           <div class="form-group">
                                           <div class="input-group">
                                               <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                                              <input id="pass1" name="pass1" type="password" class="form-control required">
+                                              <input id="pass1" name="pass1" type="password" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$">
                                              </div>
                                           </div>
                                           		<label>Digite sua nova senha </label>
@@ -64,7 +64,7 @@
 	                                            <div class="form-group">
 	                                            	<div class="input-group">
 	                                            	<span class="input-group-addon"><i class="fa fa-key"></i></span>
-	                                                <input id="pass2" name="pass2" type="password" class="form-control required">
+	                                                <input id="pass2" name="pass2" type="password" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$">
 	                                            </div>
 	                                        </div>
                
