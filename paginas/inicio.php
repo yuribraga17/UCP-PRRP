@@ -1,3 +1,43 @@
+<!-- <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>UCP | <?php echo $name; ?>Progressive Roleplay</title>
+	
+	CORE CSS 
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'> 
+    
+	PLUGINS
+	<link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+
+	THEME CSS
+	<link href="assets/css/theme.min.css" rel="stylesheet">
+	<link href="assets/css/custom.css" rel="stylesheet">
+</head>
+
+<body class="fixed-header">
+	<header>
+		<div class="container">
+			<span class="bar hide"></span>
+			<a href="/?page=login" class="logo"><img src="img/logo2.png" height="40" width="40"></a>
+			
+			<nav>
+				<div class="nav-control">
+					<ul>
+						<li><a href="https://forum.progressive-roleplay.com" target="_blank">Fórum</a></li>
+						<li><a href="https://download.progressive-roleplay.com/cache.rar" target="_blank">Baixa Cache</a></li>
+						<li><a href="https://discord.gg/dP7PNFmQ7Q" target="_blank">Discord</a></li>
+
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+</body>-->
+
 <div class="row wrapper border-bottom white-bg page-heading">
 	<div class="col-sm-4">
 		<h2>Personagens</h2>

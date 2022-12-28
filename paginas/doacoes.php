@@ -30,7 +30,7 @@
 					<div class="ibox float-e-margins bounceInUp animated">
 						<div class="ibox-content">
 		
-					<center><div style='background-repeat: no-repeat; background-size: contain; background-image: url(<?=$url_base;?>/img/logo.png); width: 200px; height:200px; margin-top:8px; margin-bottom:-5px;'></div><center>	
+					<center><div style='background-repeat: no-repeat; background-size: contain; background-image: url(<?=$url_base;?>/img/logo.png); width: 325px; height:200px; margin-top:-32px; margin-bottom:-96px;'></div><center>	
 					<center><h2><b>Informações sobre jogadores Premium</b></h2><hr></hr></center>
 
 

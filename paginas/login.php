@@ -94,7 +94,7 @@ if(isset($_SESSION['usuarioID'])){
 
 
 <div id="wrapper">
-		<section class="hero hero-panel" style="background-image: url(assets/img/cover/cover-login.png);">
+		<section class="hero hero-panel" style="background-image: url(assets/img/cover/cover-login2.png);">
 			<div class="container relative">
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pull-none margin-auto">
