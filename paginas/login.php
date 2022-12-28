@@ -16,7 +16,7 @@ if(isset($_SESSION['usuarioID'])){
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>UCP | <?php echo $name; ?>Progressive Roleplay</title>
+	<title>UCP | Progressive Roleplay</title>
 	
 	<!-- CORE CSS -->
 	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -145,7 +145,7 @@ if(isset($_SESSION['usuarioID'])){
 			<div class="widget row">
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 					<h4 class="title">INFORMAÇÕES</h4>
-				<p>Neste painel, você poderá gerenciar os dados de suas conta e seus personagens, interagir com funções de influencia IC e OOC para o seu personagem.</p>
+				<p >Neste painel, você poderá gerenciar os dados de suas conta e seus personagens, interagir com funções de influencia IC e OOC para o seu personagem.</p>
 
                 <p>Nós desenvolvemos esta ferramenta, visando a facilidade de uso daqueles que forem utiliza-lo, e o bem estar para o uso durante o dia a dia. Até mesmo remotamente, longe de casa.</p>
 
@@ -153,7 +153,7 @@ if(isset($_SESSION['usuarioID'])){
 
                 <p>Em casos de dúvidas, sugestões ou problemas, entre em contato com algum Administrador via fórum.</p>
                 
-				<br><br>Please contact the <?php echo $name; ?> management team through the forums if there are any questions about this user control panel.
+				<br><br>Contate o Head of Developer <a href="https://www.instagram.com/yuri.braga17">Yuri Braga</a> em caso de bugs ou reprote em <a href="https://forum.progressive-roleplay.com"> nosso fórum</a>.
 					</p>
 				</div>
 					
@@ -242,7 +242,7 @@ if(isset($_SESSION['usuarioID'])){
                 text: "Autenticando usuário, aguarde um momento..",
             });
 			setTimeout(function(){
-				var login=$('#user-login').val();	//Pega valor do campo email
+				var login=$('#user-login').val();	//Pega valor do campo login
 				var senha=$('#user-senha').val();	//Pega valor do campo senha
 				var senhahash=$('SenhaShow').val();
 				$.ajax({			//Função AJAX

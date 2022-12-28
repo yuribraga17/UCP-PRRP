@@ -1,24 +1,11 @@
 <?php
-$db_host = '198.50.187.244'; // Server Name
-$db_user = 'yurib_6948'; // Username
-$db_pass = 'wGfWG501d2'; // Password
-$db_name = 'yurib_6948'; // Database Name
-
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-if (!$conn) {
-	die ('Failed to connect to MySQL: ' . mysqli_connect_error());	
-}
+error_reporting(0);
+ini_set(“display_errors”, 0 );
+include('func/database.php');
 
 $sql = 'SELECT * 
 		FROM server';
-		
-$query = mysqli_query($conn, $sql);
-
-if (!$query) {
-	die ('SQL Error: ' . mysqli_error($conn));
-}
-?>
+?>	
 	<div class="row wrapper border-bottom white-bg page-heading">
 		<div class="col-lg-10">
        		<h2>Jogadores Online</h2>

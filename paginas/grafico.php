@@ -1,22 +1,11 @@
 <?php
-$db_host = '198.50.187.244'; // Server Name
-$db_user = 'yurib_6948'; // Username
-$db_pass = 'wGfWG501d2'; // Password
-$db_name = 'yurib_6948'; // Database Name
-
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
-if (!$conn) {
-	die ('Failed to connect to MySQL: ' . mysqli_connect_error());	
-}
+error_reporting(0);
+ini_set(“display_errors”, 0 );
+include('func/database.php');
 
 $sql = 'SELECT * 
 		FROM grafico';
 		
-$query = mysqli_query($conn, $sql);
-
-if (!$query) {
-	die ('SQL Error: ' . mysqli_error($conn));
-}
 ?>
 	<div class="row wrapper border-bottom white-bg page-heading">
 		<div class="col-lg-10">
@@ -67,7 +56,7 @@ if (!$query) {
 		.data-table td {
 			border: 1px solid #e1edff;
 			text-align: center;
-			padding: 7px 17px;
+			padding: 0px 17px;
 		}
 		.data-table caption {
 			margin: 7px;
@@ -75,7 +64,7 @@ if (!$query) {
 
 		/* Table Header */
 		.data-table thead th {
-			background-color: #3b6f77;
+			background-color: #337ab7;
 			text-align: center;
 			color: #FFFFFF;
 			border-color: #6ea1cc !important;
@@ -117,7 +106,7 @@ if (!$query) {
 </head>
 <body>
     
-	<h1>Refundos Criados</h1>
+	<h1>Jogadores online</h1>
 	<center><table class="data-table">
 	    <hr>
 		<thead>
