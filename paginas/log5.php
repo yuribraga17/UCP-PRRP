@@ -107,7 +107,7 @@ $sql = 'SELECT *
 </head>
 <body>
     
-	<h1>Kick's</h1>
+	<h1><b>Kick logs</b></h1>
 	<center><table class="data-table">
 	    <hr>
 		<thead>

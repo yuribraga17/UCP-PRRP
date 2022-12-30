@@ -17,7 +17,7 @@ $sql = 'SELECT *
                 </li><li>
                     Administração
                 </li><li class="active">
-                    <strong>Ajail log</strong>
+                    <strong>Banimentos log</strong>
                 </li>
             </ol>
          </div>
@@ -107,7 +107,7 @@ $sql = 'SELECT *
 </head>
 <body>
     
-	<h1>Ban log's</h1>
+	<h1><b>Ban log's</b></h1>
 	<center><table class="data-table">
 	    <hr>
 		<thead>

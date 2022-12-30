@@ -108,6 +108,7 @@ $sql = 'SELECT *
 <body>
     
 	<h1>Armamentos</h1>
+	<h1><b>Armas log</b></h1>
 	<center><table class="data-table">
 	    <hr>
 		<thead>

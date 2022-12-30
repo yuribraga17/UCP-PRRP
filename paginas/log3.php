@@ -107,7 +107,7 @@ $sql = 'SELECT *
 </head>
 <body>
     
-	<h1>Refundos Criados</h1>
+	<h1><b>Chaves de refundo itens</b></h1>
 	<center><table class="data-table">
 	    <hr>
 		<thead>
