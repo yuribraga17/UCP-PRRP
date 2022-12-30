@@ -99,23 +99,3 @@ if($link == '/ucp/online') echo '<li class="active">'; else echo "<li>";
  <?php } ?>
 
  <!-- FIM - ÁREA DE ADMINISTRADORES-->
-
- 
-<!-- Start Footer Section --> 
-<?php 
-	?>
-	<hr style="border: 1px solid <?=$cor_linha_menu;?>; margin-top:2px; margin-bottom:2px;">
-	<?php
-	if($link == '/ucp')
-		echo '<li class="active">'; else echo "<li>"; 
-		
-	echo '
-			<a href="#"><i class="fa fa-desktop"></i> <span class="nav-label">Area policial</span><span class="fa arrow"></span></a>
-			<ul class="nav nav-second-level collapse">';
-	if($link == 'www.google.com') echo '<li class="active">'; else echo "<li>"; 
-?>
-	<a href="<?=$url_base;?>/190"><i class="fa fa-archive"></i><i class="fa  fa-angle-right"></i> <span class="nav-label">registro 190</span></a>
-	<a href="<?=$url_base;?>/criminal"><i class="fa fa-archive"></i><i class="fa  fa-angle-right"></i> <span class="nav-label">Fichas Criminais</span></a>
-	</ul></li></li>
-</li>
-<!-- Start Footer Section -->
