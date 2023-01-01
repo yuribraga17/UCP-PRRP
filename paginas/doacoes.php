@@ -117,7 +117,7 @@
 
 					<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$4,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$3,99</a></b>
 							</div></h2></center></p>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 		</div>
 	</div>
  </div>
- <!-- Fim Pacote 1 - Troca De Nome -->
+ <!-- Fim Pacote 1 - Slot personalizado -->
  <div class="wrapper wrapper-content animated fadeIn">
 		<div class="p-w-md m-t-sm">
 			<div class="row">
@@ -139,7 +139,7 @@
 					<hr></hr>
 					<h2>Descrição do produto</h2>
 					<div class="small text-muted">
-					Troca de nome
+					Slot personalizado
 						</div>
 					Com ela você poderá ter uma skin exclusiva no servidor, você pode nos enviar a skin e será privada somente a você
 
@@ -196,7 +196,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$9,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$8,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
@@ -249,7 +249,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$13,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$12,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
@@ -303,7 +303,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$19,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$16,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
