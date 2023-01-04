@@ -236,7 +236,7 @@ if((isset($_POST["userName"])))
                                             <h2>Informações do personagem</h2>
                                             <div class="form-group">
                                                 <label>Nome do personagem * <font size="-8">( Nome_Sobrenome )</font></label>
-                                                <input id="persName" name="persName" type="text" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$">
+                                                <input id="persName" name="persName" type="text" class="form-control">
                                             </div>
                                             <div class="form-group">
                                                 <label>Gênero</label>
@@ -276,15 +276,15 @@ if((isset($_POST["userName"])))
                                             </div>
                                             <div class="form-group">
                                                 <label>O que é Fear RP? Dê três exemplos. *</label>
-                                                <textarea minlength="5" id="def-fear" name="def-fear" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea minlength="5" id="def-fear" name="def-fear" class="form-control required" pattern="^[0-9a-zA-\b-]+$"></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label>O que é Powergaming? Cite três exemplos. *</label>
-                                                <textarea minlength="5" id="def-pg" name="def-pg" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea minlength="5" id="def-pg" name="def-pg" class="form-control required" pattern="^[0-9a-zA-\b-]+$"></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label>O que é IC e OOC? Cite três exemplos de cada. *</label>
-                                                <textarea minlength="5" id="def-ioc" name="def-ioc" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea minlength="5" id="def-ioc" name="def-ioc" class="form-control required" pattern="^[0-9a-zA-\b-]+$"></textarea>
                                             </div>
                                         </div>
                                         

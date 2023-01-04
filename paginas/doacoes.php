@@ -95,6 +95,28 @@
  <!-- Fim de Modal -->
 
 <!-- Pacote 1 - Troca De Nome -->
+<div class="p-w-md m-t-sm">
+			<div class="row">
+				<div class="col-lg-13">
+					<div class="ibox float-e-margins bounceInUp animated">
+					<div class="ibox-content">
+		
+					<h2 class="font-bold m-b-xs text-center">
+					PROMOÇÃO <span class="text-success">PREMIUM</span>	
+
+					<hr></hr>
+					<h2>Vai ficar de fora dessa promoção?</h2>
+					<div class="small text-muted">
+					Valído até 20/01/2023
+						</div>
+					Escolha seu pacote e nos ajude com o projeto!
+
+					<hr>
+					<center><img src="https://cdn.discordapp.com/attachments/1051169484104273960/1059215498589515786/promo.png" width=350 height=350></center>
+
+				</div>
+			</div>
+		</div>
 	<div class="wrapper wrapper-content animated fadeIn">
 		<div class="p-w-md m-t-sm">
 			<div class="row">
@@ -114,10 +136,9 @@
 
 					<hr>
 					<center><dd class="from-group"><img oncontextmenu="return false" <img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;1x Troca de nome</dd><br/></center>
-
 					<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$3,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">1x R$3,99</a></b>
 							</div></h2></center></p>
 					</div>
 				</div>
@@ -144,7 +165,7 @@
 					Com ela você poderá ter uma skin exclusiva no servidor, você pode nos enviar a skin e será privada somente a você
 
 					<hr>
-					<center><dd class="from-group"><img oncontextmenu="return false" <img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;1x slot personalizado</dd><br/></center>
+					<center><dd class="from-group"><img oncontextmenu="return false" <img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;1x slot personalizado</dd><br/></center>
 
 					<p><center>
 						<div class="alert alert-success" role="alert">
@@ -196,7 +217,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$8,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">De R$9,99 por 7,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
@@ -249,7 +270,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$12,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$13,99 por 10,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
@@ -303,7 +324,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$16,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">De R$19,99 por 14,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
