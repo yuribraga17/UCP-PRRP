@@ -114,7 +114,7 @@ if(isset($_SESSION['usuarioID'])){
 											</div>
 											<div class='form-group input-icon-left'>
 												<i class='fa fa-lock'></i> 
-												<input id="user-senha" type="password" class="form-control" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$" placeholder="Senha" required="">
+												<input id="user-senha" type="password" class="form-control"  placeholder="Senha" required="">
 											</div>
 											<button style="background:#400040 type=submit" class="btn btn-primary block full-width m-b">Logar</button>
 											<a class="btn btn-sm btn-white btn-block" href="registro">Registrar</a>

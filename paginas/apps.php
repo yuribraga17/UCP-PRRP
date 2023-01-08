@@ -123,7 +123,7 @@ if($pAdmin > 0){
                                                     <td><?=$nome;?></td>
                                                     <td><?php if($row_av['novopers']) echo "Personagem";
                                                     	else echo "Aplicação";?></td>
-                                                    <td><a href="verapp/<?=$row_av['apppID']?>" class="client-link"><i class="fa fa-eye"></i></a></td>
+                                                    <td><a href="verapp/<?=$row_av['appID']?>" class="client-link"><i class="fa fa-eye"></i></a></td>
                                                 </tr>
                                                 <?php } ?>
                                                 </tbody>

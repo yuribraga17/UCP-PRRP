@@ -168,16 +168,16 @@ if((isset($_POST["userName"])))
                                             </div>
                                             <div class="form-group">
                                                 <label>Senha *</label>
-                                                <input id="password" name="password" type="text" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$">
+                                                <input id="password" name="password" type="text" class="form-control required" >
                                             </div>
                                             <div class="form-group">
                                                 <label>Repita a senha *</label>
-                                                <input id="confirm" name="confirm" type="text" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$">
+                                                <input id="confirm" name="confirm" type="text" class="form-control required" >
                                             </div>
                                             <div style="border-bottom:3px solid #E5E5E5; margin-bottom:12px;"></div>
                                             <div class="form-group">
                                                 <label>Email *</label>
-                                                <input id="email" name="email" type="text" class="form-control required email" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$">
+                                                <input id="email" name="email" type="text" class="form-control required email" >
                                             </div>
                                         </div>
                                         <div class="col-lg-4">
@@ -258,21 +258,21 @@ if((isset($_POST["userName"])))
                                             </div>
                                             <div class="form-group">
                                                 <label>Conte-nos a história de seu personagem. Pelo menos três parágrafos *</label>
-                                                <textarea id="hist-pers" name="hist-pers" class="form-control required" style="min-height:150px;" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea id="hist-pers" name="hist-pers" class="form-control required" style="min-height:150px;" ></textarea>
                                             </div>
                                             <div style="border-bottom:3px solid #E5E5E5; margin-bottom:12px;"></div>
                                             <h2>- Perguntas OOC -</h2>
                                             <div class="form-group">
                                                 <label>Defina Roleplay *</label>
-                                                <textarea minlength="5" id="def-rol" name="def-rol" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea minlength="5" id="def-rol" name="def-rol" class="form-control required" ></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label>O que é Metagaming? Dê três exemplos. *</label>
-                                                <textarea minlength="5" id="def-mg" name="def-mg" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea minlength="5" id="def-mg" name="def-mg" class="form-control required" ></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label>Quando você pode matar outro jogador? Dê três exemplos. *</label>
-                                                <textarea minlength="5" id="def-matar" name="def-matar" class="form-control required" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"></textarea>
+                                                <textarea minlength="5" id="def-matar" name="def-matar" class="form-control required" ></textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label>O que é Fear RP? Dê três exemplos. *</label>
