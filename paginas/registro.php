@@ -94,7 +94,7 @@ if((isset($_POST["userName"])))
             $sql_app4="UPDATE ucp_aplic SET def_pg='$fpg' WHERE ucp_user_owner = '$ACCID'"; 
             $mysqli->query($sql_app4);
             
-            $sql_app6 = "UPDATE ucp_aplic SET Charname='$charname', Gender='$genero', Birthdate='$nascdate' ,Origin='$localnasc' ,CreateDate='$timestamp' ,Skin='$Skin_Registro' WHERE ucp_user_owner = '$ACCID'";
+            $sql_app6 = "UPDATE ucp_aplic SET Charname='$charname', Gender='$genero', Birthdate='$nascdate', Origin='$localnasc' ,CreateDate='$timestamp' ,Skin='$Skin_Registro' WHERE ucp_user_owner = '$ACCID'";
             $mysqli->query($sql_app6);
             
             $timestaaaamp = time();
@@ -263,7 +263,7 @@ if((isset($_POST["userName"])))
                                             <div style="border-bottom:3px solid #E5E5E5; margin-bottom:12px;"></div>
                                             <h2>- Perguntas OOC -</h2>
                                             <div class="form-group">
-                                                <label>Defina Roleplay *</label>
+                                                <label>Defina o que é Roleplay. *</label>
                                                 <textarea minlength="5" id="def-rol" name="def-rol" class="form-control required" ></textarea>
                                             </div>
                                             <div class="form-group">
@@ -275,7 +275,7 @@ if((isset($_POST["userName"])))
                                                 <textarea minlength="5" id="def-matar" name="def-matar" class="form-control required" ></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <label>O que é Fear RP? Dê três exemplos. *</label>
+                                                <label>O que é Roleplay No Fear? Dê três exemplos. *</label>
                                                 <textarea minlength="5" id="def-fear" name="def-fear" class="form-control required" pattern="^[0-9a-zA-\b-]+$"></textarea>
                                             </div>
                                             <div class="form-group">
@@ -283,7 +283,7 @@ if((isset($_POST["userName"])))
                                                 <textarea minlength="5" id="def-pg" name="def-pg" class="form-control required" pattern="^[0-9a-zA-\b-]+$"></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <label>O que é IC e OOC? Cite três exemplos de cada. *</label>
+                                                <label>O que é IC e OOC? Dê três exemplos de comandos de cada um. *</label>
                                                 <textarea minlength="5" id="def-ioc" name="def-ioc" class="form-control required" pattern="^[0-9a-zA-\b-]+$"></textarea>
                                             </div>
                                         </div>

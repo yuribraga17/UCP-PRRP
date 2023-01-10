@@ -233,7 +233,7 @@ if (isset($_GET['id'])) {
 											</div>
                     					</div>
                     					<div class="ibox">
-                                        	<div class="ibox-heading" style="background:#F3F3F4;"><h3>Defina Roleplay</h3></div>
+                                        	<div class="ibox-heading" style="background:#F3F3F4;"><h3>Defina o que é Roleplay.</h3></div>
                         					<div class="ibox-content">
 												<p class="small">
 													<?php echo nl2br($row_app['def_rol']); ?>
@@ -249,7 +249,7 @@ if (isset($_GET['id'])) {
  										</div>
                     							</div>
                     							<div class="ibox">
-                                                				<div class="ibox-heading" style="background:#F3F3F4;"><h3>Quando você pode matar outro jogador?</h3></div>
+                                                				<div class="ibox-heading" style="background:#F3F3F4;"><h3>Cite três exemplos de quando você pode matar um jogador, com base nas regras do servidor.</h3></div>
                         							<div class="ibox-content">
                             								<p class="small">
                                 							<?php echo nl2br($row_app['def_matar']); ?>
@@ -257,7 +257,7 @@ if (isset($_GET['id'])) {
  										</div>
                     							</div>
                     							<div class="ibox">
-                                                				<div class="ibox-heading" style="background:#F3F3F4;"><h3>O que é Fear RP? Dê três exemplos</h3></div>
+                                                				<div class="ibox-heading" style="background:#F3F3F4;"><h3>O que é Roleplay No Fear? Dê três exemplos.</h3></div>
                         							<div class="ibox-content">
                             								<p class="small">
                                 							<?php echo nl2br($row_app['def_fear']); ?>
@@ -316,7 +316,7 @@ if (isset($_GET['id'])) {
                                             			<textarea id="hist-pers" name="hist-pers" class="resp_box_app"><?=$row_app['histpers']; ?></textarea>
 													</div>
                     								<div class="ibox">
-                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>Defina Roleplay</h3></div>
+                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>Defina o que é Roleplay.</h3></div>
                         								<textarea id="def-rol" name="def-rol" class="resp_box_app"><?=$row_app['def_rol']; ?></textarea>	
                     								</div>
                     								<div class="ibox">
@@ -324,11 +324,11 @@ if (isset($_GET['id'])) {
                                                 		<textarea id="def-mg" name="def-mg" class="resp_box_app"><?=$row_app['def_mg']; ?></textarea>
                     								</div>
                     								<div class="ibox">
-                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>Quando você pode matar outro jogador?</h3></div>
+                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>Cite três exemplos de quando você pode matar um jogador, com base nas regras do servidor.</h3></div>
                    										<textarea id="def-matar" name="def-matar" class="resp_box_app"><?=$row_app['def_matar']; ?></textarea>
                     								</div>
                     								<div class="ibox">
-                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>O que é Fear RP? Dê três exemplos</h3></div>
+                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>O que é Roleplay No Fear? Dê três exemplos.</h3></div>
                    										<textarea id="def-fear" name="def-fear" class="resp_box_app"><?=$row_app['def_fear']; ?></textarea>
                     								</div>
                     								<div class="ibox">
@@ -336,7 +336,7 @@ if (isset($_GET['id'])) {
                    										<textarea id="def-pg" name="def-pg" class="resp_box_app"><?=$row_app['def_pg']; ?></textarea>
                     								</div>
                     								<div class="ibox">
-                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>O que é IC e OOC? Cite três exemplos de cada.</h3></div>
+                                                		<div class="ibox-heading" style="background:#F3F3F4;"><h3>O que é IC e OOC? Dê três exemplos de comandos de cada um.</h3></div>
                    										<textarea id="def-ioc" name="def-ioc" class="resp_box_app"><?=$row_app['def_ioc']; ?></textarea>
                     								</div>
                     								

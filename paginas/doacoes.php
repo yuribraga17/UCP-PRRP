@@ -169,7 +169,7 @@
 
 					<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">1x R$14,99 e 2x por 24,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">1x R$9,99 e 2x por 14,99</a></b>
 							</div></h2></center></p>
 					</div>
 				</div>
@@ -201,15 +201,16 @@
 													<div class="col-lg-12">
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>3</b> Namechanges.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>10</b> Veículos na garagem.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>200</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 600).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>5</b> Veículos na garagem. (padrão é 4)</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>350</b> Mobílias.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>60</b> Segundos no hospital. (padrão é 800, convenio 400).</dd><br/>	
 													</div>
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;Rankbar premium padrão.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/quitjob.png"/>&nbsp;<b>1</b> hora para sair do emprego.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/></center>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;4 reais de bonus no Pixelgram.</dd><br/></center>
 													
 												</dl>
 											<hr>
@@ -252,9 +253,9 @@
 													<div class="col-lg-12">
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>6</b> Namechanges.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>12</b> Veículos na garagem.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>300</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 600).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>7</b> Veículos na garagem. (padrão é 4)</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>600</b> Mobílias.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>60</b> Segundos no hospital. (padrão é 800, convenio 400).
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													</div>
 													<div class="col-lg-6">
@@ -263,7 +264,7 @@
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/quitjob.png"/>&nbsp;<b>1</b> hora para sair do emprego.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house2.png"/>&nbsp;<b>1</b> saida extra em cada propriedade.</dd><br/>
-													
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;8 reais de bonus no Pixelgram.</dd><br/>
 												</dl>
 											<hr>
 										</div>
@@ -306,9 +307,9 @@
 													<div class="col-lg-12">
 													<div class="col-lg-6">
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/namechange.png"/>&nbsp;<b>10</b> Namechanges.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>15</b> Veículos na garagem.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>600</b> Mobílias.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>5</b> Segundos no hospital. (padrão é 600).</dd><br/>	
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/garagem.png"/>&nbsp;<b>10</b> Veículos na garagem.(padrão é 4)</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/furniture.png"/>&nbsp;<b>800</b> Mobílias.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/hp.png"/>&nbsp;<b>60</b> Segundos no hospital. (padrão é 800, convenio 400).
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/blockpm.png"/>&nbsp;Acesso ao /tog pm.</dd><br/>
 													</div>
 													<div class="col-lg-6">
@@ -317,7 +318,7 @@
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/quitjob.png"/>&nbsp;<b>1</b> hora para sair do emprego.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house2.png"/>&nbsp;<b>2</b> saida extra em cada propriedade.</dd><br/>
-													
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;16 reais de bonus no Pixelgram.</dd><br/>
 												</dl>
 											<hr>
 										</div>

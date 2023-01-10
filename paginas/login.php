@@ -110,7 +110,7 @@ if(isset($_SESSION['usuarioID'])){
 										<div id="ajax"></div>
 											<div class='form-group input-icon-left'>
 												<i class='fa fa-user'></i>
-												<input id="user-login" type="text" class="form-control" pattern="^[ 0-9a-zA-Zàèìòùáéíóúâêîôûãõ\b-]+$"  placeholder="Usuário" required="">
+												<input id="user-login" type="text" class="form-control" placeholder="Usuário" required="">
 											</div>
 											<div class='form-group input-icon-left'>
 												<i class='fa fa-lock'></i> 
