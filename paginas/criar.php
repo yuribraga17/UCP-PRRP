@@ -1,246 +1,328 @@
-<div class="row">
-	<div class="col-lg-12">
-   		<div class="wrapper wrapper-content">
-        	<div class="row">
-             	<?php
-             	error_reporting(1);
-                ini_set(“display_errors”, 0 );
-             	include('../func/database.php');
-             	
-				if(mysql_num_rows($result_quant_pers) < 0){
-					$query_search = "SELECT * FROM accounts WHERE Username='$charname' AND status = '1'  ";
-			        $result_ser = mysql_query($query_search)or die (mysql_error());
-			        if(mysql_num_rows($result_ser) > 0)
-			        	$semapp = 0;
-			        else {
-			       		echo "<h3><center>Você precisa ter uma aplicação aceita antes de criar novos personagens.</center></h3></div>";
-			        	$semapp = 1;
-					}
-					if($semapp == 0)
-					{
-						?>
-                        <form action="criar.php" method="post">
-							<div class="col-lg-10 full-width" style="background:#FFF; border-radius:8px;">
-                            <h2>Informações do personagem</h2>
-                            <?php
-								$Erros= 0;
-								$Erro_nome = '';
-								$Erro_Age = '';
-								$Erro_hist = '';
-								if(isset($_POST['persName']) || isset($_POST['local-nasc']) || isset($_POST['hist-pers'])){
-									if($_POST['persName'] != ''){
-										$findme    = '_';
-										$pos1 = stripos($_POST['persName'], $findme);
-										if ($pos1 === false){
-											$Erro_nome = "O seu nome deve ser no formato 'Nome_Sobrenome'.";
-											$Erros++;
-										}
-										if( preg_match('/\s/', $_POST['persName'])){
-											$Erro_nome = "O Nome do seu personagem não pode conter espaço.";
-											$Erros++;
-										}
-										if($Erros == 0){
-											$NomeP = mysql_escape_string($_POST['persName']);
-											$sql_existe = "SELECT * FROM accounts WHERE Charname = '$NomeP' AND status != '3'";
-											$resultados = mysql_query($sql_existe)or die (mysql_error());
-											if (@mysql_num_rows($resultados) != 0){
-												$Erro_nome = "Este nome de personagem já está em uso!";
-												$Erros++;
-											}
-										}
-									}
-									else {
-										$Erro_nome = "Você não deu um nome ao seu personagem..";
-										$Erros++;
-                                    }
-									if($_POST['local-nasc'] != '')
-										$LocalNasc = mysql_escape_string($_POST['local-nasc']);
-									else {
-										$Erro_Age = "Você não escolheu o local de nascimento ao seu personagem..";
-										$Erros++;
-                                    }
-									if($_POST['hist-pers'] != '')
-										$Localhist = mysql_escape_string($_POST['hist-pers']);
-									else {
-										$Erro_hist = "Você deve escrever a história de seu personagem..";
-										$Erros++;
-                                    }
-									
-									if($Erros > 0) {
-							?>
-                                   		<div class="box-erro">
-											<div style="padding-top:5px;padding-bottom:5px;">
-											<?php
-												if($Erro_nome != '') echo $Erro_nome;
-												if($Erro_Age != '')
-													if($Erro_nome != '') echo "<br>".$Erro_Age;
-														else echo $Erro_Age;
-													if($Erro_hist != '')
-														if($Erro_nome != '' || $Erro_Age != '') echo "<br>".$Erro_hist;
-														else echo $Erro_hist;
-											?>
+<?php
+session_start(); 	//A seção deve ser iniciada em todas as páginas
+if (!isset($_SESSION['usuarioID'])) 
+{		//Verifica se há seções
+	session_destroy();						//Destroi a seção por segurança
+	header("Location: login.php"); exit;	//Redireciona o visitante para login
+}
+
+include('func/database.php');
+
+function get_ip() 
+{
+    if ( function_exists( 'apache_request_headers' ) ) 
+    {
+        $headers = apache_request_headers();
+    } else {
+        $headers = $_SERVER;
+    }
+    if ( array_key_exists( 'X-Forwarded-For', $headers ) && filter_var( $headers['X-Forwarded-For'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV4 ) ) {
+        $the_ip = $headers['X-Forwarded-For'];
+    } elseif ( array_key_exists( 'HTTP_X_FORWARDED_FOR', $headers ) && filter_var( $headers['HTTP_X_FORWARDED_FOR'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV4 )) {
+        $the_ip = $headers['HTTP_X_FORWARDED_FOR'];
+    } else {
+        $the_ip = filter_var( $_SERVER['REMOTE_ADDR'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV4 );
+    }
+    return $the_ip;
+}
+
+if(isset($_POST['persName']))
+ $charname=$mysqli->real_escape_string($_POST['persName']);
+if(isset($_POST['genero']))
+ $genero=$mysqli->real_escape_string($_POST['genero']);
+if(isset($_POST['hist-pers']))
+ $histper=$mysqli->real_escape_string($_POST['hist-pers']);
+ if(isset($_POST['userName']))
+ $login=$mysqli->real_escape_string($_POST['userName']);
+
+if((isset($_POST["userName"])))
+{ 
+        $date1 = date('m/d/Y h:i:s a', time());
+        //Consulta no banco de dados 
+        $date = new DateTime();
+        $timestamp = $date->getTimestamp();
+        $http_client_ip = get_ip();
+        
+        //Checar dnv se o personagem existe
+        $result1 = $mysqli->query("SELECT Username FROM accounts WHERE Username='".$charname."' LIMIT 1");
+        $count1 = $result1->num_rows;
+        $result1->close();
+    
+        if ($count == 0 && $count1 == 0)
+        {
+            
+            $sql_app="INSERT INTO ucp_aplic (ucp_user_owner, avaliado) VALUES ('$ACCID','0')";
+            $mysqli->query($sql_app);
+    
+            
+            $sql_app2="UPDATE ucp_aplic SET  histpers='$histper' WHERE ucp_user_owner = '$ACCID'"; 
+            $mysqli->query($sql_app2);
+            
+            
+            $sql_app3 = "UPDATE ucp_aplic SET Charname='$charname', Gender='$genero', Birthdate='$nascdate', Origin='$localnasc' ,CreateDate='$timestamp' ,Skin='$Skin_Registro' WHERE ucp_user_owner = '$ACCID'";
+            $mysqli->query($sql_app3);
+            
+            $timestaaaamp = time();
+            $sql_app4="INSERT INTO ucp_notific (OwnId,icon,text,timestamp,visto) VALUES('$ACCID','user','Bem vindo a UCP do PR:RP','$timestaaaamp','0')"; 
+            $mysqli->query($sql_app4);
+    
+        }
+    }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Progressive Roleplay | Register</title>
+
+    <link href="<?=$url_base;?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=$url_base;?>/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="<?=$url_base;?>/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="<?=$url_base;?>/css/plugins/steps/jquery.steps.css" rel="stylesheet">
+    <link href="<?=$url_base;?>/css/animate.css" rel="stylesheet">
+    <link href="<?=$url_base;?>/css/style.css" rel="stylesheet">
+    
+     <!-- Sweet Alert -->
+    <link href="<?=$url_base;?>/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+    
+    <link href="<?=$url_base;?>/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    
+    <link href="<?=$url_base;?>/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    
+    
+    <style>
+    .large-box {
+        width:60%;
+        margin-left:20%;
+        margin-top:30px;
+    }
+    </style>
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="large-box text-center   animated fadeInDown">
+        <div>
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox">
+                        <div class="ibox-title">
+                            <center><div class="form-group logo90rp-registro"> </div></center>
+                        </div>
+                        <div class="ibox-content">
+                           <form action="criar" method="post">
+                                <h1>Personagem</h1>
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <h2>Informações do personagem</h2>
+                                            <div class="form-group">
+                                                <label>Nome do personagem * <font size="-8">( Nome_Sobrenome )</font></label>
+                                                <input id="persName" name="persName" type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Gênero</label>
+                                                
+                                                    <select class="form-control m-b" name="genero" id="genero">
+                                                        <option value="1">Masculino</option>
+                                                        <option value="2">Feminino</option>
+                                                    </select>
+                                            </div>
+                                            <div class="form-group" id="data_1">
+                                                <label>Data de Nascimento</label>
+                                                <div class="input-group date">
+                                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="nasc-date" name="nasc-date" type="text" class="form-control" value="01/01/1975">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Onde seu personagem nasceu? *</label>
+                                                <input id="local-nasc" name="local-nasc" type="text" class="form-control required">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Conte-nos a história de seu personagem. Pelo menos três parágrafos *</label>
+                                                <textarea id="hist-pers" name="hist-pers" class="form-control required" style="min-height:150px;" ></textarea>
+                                            </div>
+                                            <div align="right">
+                                    	        <button type="submit" class="btn btn-primary block m-b">Enviar Aplicação</button>
                                             </div>
                                         </div>
-                                        <?php	
-									}
-									else {
-										$NomeP = mysql_escape_string($_POST['persName']);
-										$sql_existe = "SELECT * FROM accounts WHERE Charname = '$NomeP' AND status != '3'";
-										$resultados = mysql_query($sql_existe)or die (mysql_error());
-										if (@mysql_num_rows($resultados) != 0){
-											$Erro_nome = "Este nome de personagem já está em uso!";
-											?>
-											<div class="box-erro"><div style="padding-top:5px;padding-bottom:5px;">
-											<?php
-												if($Erro_nome != '') echo $Erro_nome;
-													if($Erro_Age != '')
-														if($Erro_nome != '') echo "<br>".$Erro_Age;
-															else echo $Erro_Age;
-														if($Erro_hist != '')
-															if($Erro_nome != '' || $Erro_Age != '') echo "<br>".$Erro_hist;
-																else echo $Erro_hist;
-											?>
-											</div></div>
-											<?php	
-										}
-										else {
-											$histper = mysql_escape_string($_POST['hist-pers']);
-											$login = mysql_escape_string($_POST['persName']);
-											$localnasc = mysql_escape_string($_POST['local-nasc']);
-											$histper = mysql_escape_string($_POST['hist-pers']);
-											$charname = $_SESSION['nomeUsuario'];
-											$genero = mysql_escape_string($_POST['genero']);
-											$Age = mysql_escape_string($_POST['Age']);
-											$date = new DateTime();
-											$timestamp = $date->getTimestamp();
-														
-											$query_search = "SELECT * FROM accounts WHERE Username='$charname' and status ='1' LIMIT 1 ";
-											$result_ser = mysql_query($query_search)or die (mysql_error());
-											$res=mysql_fetch_array($result_ser);
-														
-											$UserID = $res['ID'];
-											
-											$query_aplic = "SELECT * FROM ucp_aplic WHERE OwnId='$UserID' AND avaliado ='2' LIMIT 1 ";
-											$result_aplic = mysql_query($query_aplic)or die (mysql_error());
-											$res1=mysql_fetch_array($result_aplic);
-														
-											$rp = $res1['def_rol'];
-											$mg = $res1['def_mg'];
-											$kill = $res1['def_matar'];
-											$fear = $res1['def_fear'];
-											$ioc = $res1['def_ioc'];
-											$pg = $res1['def_pg'];
-														
-											$sql2="INSERT INTO accounts (Username,Charname,Skin,Gender,Age,Origin,CreateDate) VALUES ('$charname','$login','29','$genero','$Age','$localnasc','$timestamp')"; 
-											mysql_query($sql2)or die (mysql_error());
-											$own = mysql_insert_id();
-														
-											$sql_app="INSERT INTO ucp_aplic (OwnId,def_rol, avaliado) VALUES ('$own','$rp','0')";
-											mysql_query($sql_app)or die (mysql_error());
-												
-											$sql_app2="UPDATE ucp_aplic SET def_mg='$mg', def_matar='$kill' WHERE OwnId = '$own'"; 
-											mysql_query($sql_app2)or die (mysql_error());
-														
-											$sql_app3="UPDATE ucp_aplic SET def_fear='$fear', def_ioc='$ioc', histpers='$histper' WHERE OwnId = '$own'"; 
-											mysql_query($sql_app3)or die (mysql_error());
-														
-											$sql_app4="UPDATE ucp_aplic SET def_pg='$pg', novopers='1', histpers='$histper' WHERE OwnId = '$own'"; 
-											mysql_query($sql_app4)or die (mysql_error());
-														
-				
-											?>
-											<div style="height:40px; background-color:#096; color:#FFF; border:1px solid #093; border-radius:8px; padding-top:10px; margin-bottom:15px;">
-												<center><b>Aplicação enviada com sucesso.</b></center>
-											</div>
-											<?php
-										}
-									}
-								}
-								if($Erros > 0) {
-											?>
-                                	<div class="form-group">
-                                    	<label>Nome do personagem * <font size="-8">(Nome_Sobrenome)</font></label>
-                                        <input id="persName" name="persName" type="text" class="form-control required" value="<?php if($_POST['persName']) echo $_POST['persName'];?>">
                                     </div>
-                                    <div class="form-group">
-                                    	<label>Gênero</label>
-										<select class="form-control m-b" name="genero" id="genero">
-                                        	<option value="1">Masculino</option>
-                                            <option value="2">Feminino</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group" id="data_1">
-                                    	<label>Idade</label>
-                                       	<div class="input-group date">
-                                        <input id="Age" name="Age" type="text" class="form-control required" value="<?php if($_POST['Age']) echo $_POST['Age'];?>">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                    	<label>Onde seu personagem nasceu? *</label>
-                                        <input id="local-nasc" name="local-nasc" type="text" class="form-control required" value="<?php if($_POST['local-nasc']) echo $_POST['local-nasc'];?>">
-                                    </div>
-                                    <div class="form-group">
-                                    	<label>Conte-nos a história de seu personagem *</label>
-                                        <textarea id="hist-pers" name="hist-pers" class="form-control required" style="min-height:150px;"><?php if($_POST['hist-pers']) echo $_POST['hist-pers']; ?></textarea>
-                                    </div>
-                                    <div align="right">
-                                    	<button type="submit" class="btn btn-primary block m-b">Enviar Aplicação</button>
-                                    </div>
-                                    <?php
-								}
-								else {
-									?>
-									<div class="form-group">
-										<label>Nome do personagem * <font size="-8">(Nome_Sobrenome)</font></label>
-										<input id="persName" name="persName" type="text" class="form-control required" value="">
-									</div>
-									<div class="form-group">
-										<label>Gênero</label>
-										<select class="form-control m-b" name="genero" id="genero">
-											<option value="1">Masculino</option>
-											<option value="2">Feminino</option>
-										</select>
-										</div>
-									<div class="form-group" id="data_1">
-										<label>Idade</label>
-	                                    <div class="input-group date">
-	                                    <span class="input-group-addon"></span><input id="Age" name="Age" type="text" class="form-control" value="18 (Use somente numeros)">
-	                                    </div>
-									</div>
-									<div class="form-group">
-										<label>Onde seu personagem nasceu? *</label>
-										<input id="local-nasc" name="local-nasc" type="text" class="form-control required" value="">
-									</div>
-									<div class="form-group">
-										<label>Conte-nos a história de seu personagem *</label>
-										<textarea id="hist-pers" name="hist-pers" class="form-control required" style="min-height:150px;"></textarea>
-									</div>
-									<div align="right">
-										<button type="submit" class="btn btn-primary block m-b">Enviar Aplicação</button>
-									</div>	
-                                    <?php
-								}
-									?>
-							</div>
-                        </form>
-					</div>
-                    <?php
-				}
-			}
-			else {
-					?>
-            	<div class="box-erro"><div style="padding-top:5px;padding-bottom:5px;">
-                	Você já alcançou o limite de personagens.
-                </div></div>
-            <?php
-			}
-			?>
-		</div>
-	</div>
-</div>            
-<?php include('ads.php'); ?>
-<div class="footer">
-	<div>
-		<?=$footer;?>
-	</div>
-</div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <p class="m-t"> <small>Copyright PR:RP © 2018~2023</small> </p>
+        </div>
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="<?=$url_base;?>/js/jquery-2.1.1.js"></script>
+    <script src="<?=$url_base;?>/js/bootstrap.min.js"></script>
+    <script src="<?=$url_base;?>/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="<?=$url_base;?>/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="<?=$url_base;?>/js/inspinia.js"></script>
+    <script src="<?=$url_base;?>/js/plugins/pace/pace.min.js"></script>
+
+    <!-- Steps -->
+    <script src="<?=$url_base;?>/js/plugins/staps/jquery.steps.min.js"></script>
+
+    <!-- Jquery Validate -->
+    <script src="<?=$url_base;?>/js/plugins/validate/jquery.validate.min.js"></script>
+    
+    <!-- Sweet alert -->
+    <script src="<?=$url_base;?>/js/plugins/sweetalert/sweetalert.min.js"></script>
+    
+    <!-- iCheck -->
+    <script src="<?=$url_base;?>/js/plugins/iCheck/icheck.min.js"></script>
+    
+    <script src="<?=$url_base;?>/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var pers_existe = 0; 
+            var pers_comespaco = 0;
+            var pers_semunder = 0;
+            
+            $("#wizard").steps();
+            $("#form").steps(
+            {
+                bodyTag: "fieldset",
+                onStepChanging: function (event, currentIndex, newIndex, nvar)
+                {
+                    // Always allow going backward even if the current step contains invalid fields!
+                    if (currentIndex > newIndex)
+                    {
+                        return true;
+                    }
+                    
+                    // Forbid suppressing "Warning" step if the user is to young
+                    if (newIndex === 1 && Number($("#age").val()) < 13)
+                    {
+                        return false;
+                    }
+
+                    var form = $(this);
+
+                    // Clean up if user went backward before
+                    if (currentIndex < newIndex)
+                    {
+                        // To remove error styles
+                        $(".body:eq(" + newIndex + ") label.error", form).remove();
+                        $(".body:eq(" + newIndex + ") .error", form).removeClass("error");
+                    }
+
+                    // Disable validation on fields that are disabled or hidden.
+                    form.validate().settings.ignore = ":disabled,:hidden";
+
+                    // Start validation; Prevent going forward if false
+                    if(newIndex === 1)
+                    {
+                        if(form.valid() == true)
+                        {
+                            if(pers_existe == 1) 
+                            {
+                                swal("Registro", "Este nome de personagem já está em uso! ", "error");
+                                return false;
+                            }
+                            else if(pers_comespaco = 0) 
+                            {
+                                swal("Registro", "O nome do seu personagem não pode conter espaço! ", "error");
+                                return false;
+                            }
+                            else if(pers_semunder = 0) 
+                            {
+                                swal("Registro", "O nome do seu personagem deve contar um _  ficando Nome_Sobrenome.", "error");
+                                return false;
+                            }
+                            else
+                            {
+                                return form.valid();
+                            }
+                        }
+                    }
+                    return form.valid();
+                    
+                },
+                onFinished: function (event, currentIndex)
+                {
+                    var form = $(this);
+                    form.submit();
+                    
+                    //Pagina 1
+                    /*var login=$('#userName').val();
+                    var senha=$('#password').val();
+                    var passconf=$('#confirm').val();
+                    var email=$('#email').val();*/
+                    //Pagina 2
+                    var charname=$('#persName').val();
+                    var localnasc=$('#local-nasc').val();
+                    var nascdate=$('#nasc-date').val();
+                    var genero=$('#genero').val();
+                    var histpers=$('#hist-pers').val();
+                }
+            $('#persName').focusout(function(){     //Ao submeter formulário
+                var qnt = 0;
+                var qnt1 = 0;
+                var campo = document.getElementById("persName");
+                var i=0;
+                for(i=0;i<campo.value.length;i++)
+                {
+                    if(campo.value[i] == " ")
+                    {
+                        qnt++;
+                    }
+                    if(campo.value[i] == "_")
+                    {
+                        qnt1++;
+                    }
+                }   
+                if(qnt > 0)
+                {
+                    swal("Registro", "O nome do seu personagem não pode conter espaço!", "error");
+                    pers_comespaco = 1;
+                }
+                else if(qnt1 != 1)
+                {
+                    swal("Registro", "O nome do seu personagem deve contar um _ ficando Nome_Sobrenome.", "error");
+                    pers_semunder = 1;
+                }
+                else 
+                {
+                    pers_comespaco = 0;
+                    pers_semunder = 0;
+                    var charname=$('#persName').val();  //Pega valor do campo email
+                    $.ajax({            //Função AJAX
+                        url:"func/ver_pers.php",            //Arquivo php
+                        type:"post",                //Método de envio
+                        data: "charname="+charname, //Dados
+                        success: function (result){ //Sucesso no AJAX
+                            //alert(result);
+                            if(result==1)
+                            {
+                                swal("Registro", "Este nome de personagem já está em uso! ", "error");
+                                pers_existe = 1;
+                            }
+                            else pers_existe = 0;
+                        }
+                    })
+                    return false;   //Evita que a página seja atualizada
+                }
+            });    
+       });
+    });
+       //=======================
+    </script>
+</body>
+</html>
