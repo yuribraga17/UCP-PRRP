@@ -1,8 +1,8 @@
 ﻿<?php
 session_start();
 
-error_reporting(1);
-ini_set(“display_errors”, 1);
+//error_reporting(1);
+//ini_set(“display_errors”, 1);
 
 $ambiente = 1; // 1 - Produção / 2 - Teste
 if($ambiente == 1){
