@@ -94,7 +94,7 @@
  </div> 
  <!-- Fim de Modal -->
 
-<!-- Pacote 1 - Troca De Nome -->
+<!-- Promoção
 <div class="p-w-md m-t-sm">
 			<div class="row">
 				<div class="col-lg-13">
@@ -114,9 +114,12 @@
 					<hr>
 					<center><img src="https://cdn.discordapp.com/attachments/1051169484104273960/1059215498589515786/promo.png" width=350 height=350></center>
 
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+ </div>-->
 	<div class="wrapper wrapper-content animated fadeIn">
 		<div class="p-w-md m-t-sm">
 			<div class="row">
@@ -218,7 +221,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">De R$9,99 por 7,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$9,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
@@ -271,7 +274,7 @@
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">R$13,99 por 10,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">R$13,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
@@ -318,14 +321,15 @@
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/quitjob.png"/>&nbsp;<b>1</b> hora para sair do emprego.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house.png"/>&nbsp;<b>21</b> dias de inatividade em qualquer propriedade.</dd><br/>
 													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/house2.png"/>&nbsp;<b>2</b> saida extra em cada propriedade.</dd><br/>
-													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/premium.png"/>&nbsp;16 reais de bonus no Pixelgram.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/dog.png"/>&nbsp;Acesso ao sistema de pet.</dd><br/>
+													<dd class="from-group"><img oncontextmenu="return false" <img src="img/premium/slot.png"/>&nbsp;1x Slot personalizado de skin e 1 para pet.</dd><br/>
 												</dl>
 											<hr>
 										</div>
 									</div>
 						<p><center>
 						<div class="alert alert-success" role="alert">
-							<h2 class="product-main-price text-primary"><b><a href="">De R$19,99 por 14,99</a></b>
+							<h2 class="product-main-price text-primary"><b><a href="">De R$19,99</a></b>
 								</div></h2></center></p>
 							</div>
 						</div>
